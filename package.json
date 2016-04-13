@@ -1,6 +1,6 @@
 {
   "name": "js-testing-jsdom-mocha-chai-sinon",
-  "description": "Testing JavaScript with jsdom and mocha",
+  "description": "Testing JavaScript with jsdom, mocha, chai & sinon",
   "version": "1.0.0",
   "author": {
     "name": "Peter J Langley",
