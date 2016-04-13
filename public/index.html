@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing JS w/ jsdom, mocha, chai & sinon</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/ol.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row top-bar">
+            <div class="col-xs-6">
+                <form id="theform" class="form-inline">
+                    <div class="form-group">
+                        <label for="search" class="control-label">Search</label>
+                        <input type="text" id="search" name="city"
+                               class="form-control" placeholder="Search..." />
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-6">
+                <div class="alert alert-danger" role="alert" style="display: none;"></div>
+            </div>
+        </div>
+        <div class="map" id="js-map"></div>
+    </div>
+
+    <script src="js/vendor/ol.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/api/map.js"></script>
+    <script src="js/api/search.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

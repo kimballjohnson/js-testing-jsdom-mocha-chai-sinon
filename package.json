@@ -1,0 +1,39 @@
+{
+  "name": "js-testing-jsdom-mocha-chai-sinon",
+  "description": "Testing JavaScript with jsdom and mocha",
+  "version": "1.0.0",
+  "author": {
+    "name": "Peter J Langley",
+    "url": "http://codechewing.com"
+  },
+  "private": true,
+  "engines": {
+    "node": "^4.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjlangley/js-testing-jsdom-mocha-chai-sinon.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "jquery": "^2.2.3",
+    "lodash": "^4.10.0",
+    "openlayers": "^3.15.1"
+  },
+  "scripts": {
+    "installtwbs": "copyfiles -f node_modules/bootstrap/dist/css/bootstrap.min.css public/css/vendor",
+    "installol3": "copyfiles -f node_modules/openlayers/dist/ol.js public/js/vendor && copyfiles -f node_modules/openlayers/dist/ol.css public/css/vendor",
+    "installjquery": "copyfiles -f node_modules/jquery/dist/jquery.min.js public/js/vendor",
+    "installWebAssets": "npm run installtwbs && npm run installol3 && npm run installjquery",
+    "postinstall": "npm run installWebAssets",
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "copyfiles": "^0.2.1",
+    "jsdom": "^8.3.1",
+    "sinon": "^1.17.3"
+  }
+}

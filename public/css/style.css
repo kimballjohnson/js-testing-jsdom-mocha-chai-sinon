@@ -1,0 +1,18 @@
+.top-bar {
+    height: 55px;
+    padding: 10px 0 0 0;
+    border-bottom: solid 1px #EFEFEF;
+}
+
+.map {
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.alert {
+    padding: 5px 15px;
+    margin: 0;
+}
