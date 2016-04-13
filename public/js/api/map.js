@@ -16,12 +16,8 @@ api.Map = function(divId) {
         target: divId
     });
 
-    var centreTo = function(latLon) {
+    this.centreTo = function(latLon) {
         map.getView().setCenter(ol.proj.fromLonLat([latLon.lon, latLon.lat]));
         map.getView().setZoom(9);
-    };
-
-    return {
-        centreTo: centreTo
     };
 };
