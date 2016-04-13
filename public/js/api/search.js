@@ -10,8 +10,7 @@ api.search = (function($) {
             done(data);
         })
         .fail(function(jqXHR, textStatus, errorThrown) {
-            var msg = JSON.parse(jqXHR.responseText).msg;
-            fail(msg);
+            fail(JSON.parse(jqXHR.responseText).msg);
         });
     };
 
