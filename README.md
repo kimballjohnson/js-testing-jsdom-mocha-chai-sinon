@@ -1,7 +1,7 @@
 # JavaScript testing with jsdom, mocha, chai & sinon
 
 To get your own live version of this demo up and running, clone the repo to a local directory on 
-your computer, ensure you `cd` into the directory from Terminal, then run the following commands:
+your computer, ensure you `cd` into the directory from the command line, then run the following commands:
 
 ```
 npm install
