@@ -14,11 +14,11 @@ Load up `http://localhost:3000` in the browser and experience the amazing!
 This repo accompanies the blog post [JavaScript testing with jsdom, mocha, chai & sinon](http://www.codechewing.com/library/testing-javascript-jsdom-mocha-chai-sinon), which 
 contains a lot more information you should check out.
 
-![JavaScript testing application](misc/app-preview.jpg?raw=true "JavaScript testing application")
+![JavaScript testing application](https://raw.githubusercontent.com/pjlangley/js-testing-jsdom-mocha-chai-sinon/master/misc/app-preview.png "JavaScript testing application")
 
 ## Sample test results
 
-![Testing JavaScript with jsdom, mocha, chai & sinon](misc/mocha-output.jpg?raw=true "Testing JavaScript with jsdom, mocha, chai & sinon")
+![Testing JavaScript with jsdom, mocha, chai & sinon](https://raw.githubusercontent.com/pjlangley/js-testing-jsdom-mocha-chai-sinon/master/misc/mocha-output.png "Testing JavaScript with jsdom, mocha, chai & sinon")
 
 ### License
 MIT
